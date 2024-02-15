@@ -1,0 +1,29 @@
+body
+{background-image: url("background paper.png")}
+h1  {
+        color: rgb(255, 255, 255);
+        margin-left: 50px;
+        font-size: 103px;
+        font-weight: 600;
+        font-family: ‘Bodoni Moda’ , black;
+    }
+
+h2  {
+        color: rgb(255, 255, 255);
+        margin-left: 230px;
+        font-family: 'Comfortaa';font-size: 13px;
+        margin-top:-80px;}
+
+.spider {margin-left:500px;
+        }
+
+.box1{
+        height:150px;
+        width:750px;
+        background-color:#4D353B;
+        border-radius: 40px;
+        margin-left:50px;
+    }
+
+.port{ margin: left 3%;
+}
