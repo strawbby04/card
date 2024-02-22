@@ -6,9 +6,10 @@
 
 .web{
         /* margin-left: 500px; */
+
         position: fixed;
         top:0px;
-        right: 0px;
+        right:0px;
 }
 
 h1  {
@@ -30,9 +31,9 @@ h2  {
         height: 100px;
         width: 425px;
         background-color:#d9a1a1;
-        border-radius: 20px;
-        /* margin-left: 200px; */
-        margin-top: 25px;
+        border-radius: 30px;
+        margin-top: 15px;
+        margin-right: 20px;
 }
 ul {
         font-family: 'Comfortaa';font-size: 16px;
@@ -46,7 +47,7 @@ ul {
 
 .content-container{
         position: absolute;
-        top:555px;
+        top:550px;
 }
 
 .box1{
@@ -60,15 +61,27 @@ ul {
 .icon-container{ 
         display:grid;
         grid-template-rows: 2;
-        margin-top: 25px; 
+        margin-top: 5px; 
+        grid-gap: 5px;
 }
 .icon-container{
         display: grid;
         grid-template-columns: 1fr 1fr 3fr;
         /* width:30%; */
         grid-template-rows: 1fr;
-        grid-column-gap: 0px;
+        grid-column-gap: 15px;
+        grid-gap:10px;
         grid-row-gap: 0px;
+        padding-top: 10px;
+}
+
+.port{
+        padding-top: 12px;
+        padding-left: 25px;
+}
+.insta{
+        padding-top: 12px;
+        padding-left: 15px;
 }
 
 /* .parent {
